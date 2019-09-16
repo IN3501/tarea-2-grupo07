@@ -19,3 +19,9 @@ def formulario2(request):
 def formulario3(request):
 	return render(request, 'formulario3.html')
 
+
+def recuperar(request):
+	return render(request, 'mostrar_resultado.html')
+
+
+
